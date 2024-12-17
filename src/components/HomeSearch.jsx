@@ -116,7 +116,7 @@ const startVoiceRecognition = () => {
           placeholder='Search Google or use voice'
         />
         <BsFillMicFill
-          className={`text-lg cursor-pointer ${
+          className={`text-lg cursor-pointer my-auto mr-2 ${
             listening ? 'text-red-500 animate-pulse' : 'text-gray-500'
           }`}
           onClick={startVoiceRecognition}
